@@ -18,10 +18,10 @@ De esta forma, los equipos se atacarán por turnos y ganará el equipo que logre
 
 ## Supuestos
 
-1. Se supuso que los Superhéroes que no tienen disponible algún parámetro necesario en la API de superhéroes no podrá ser utilizado. (Por ejemplo, un superhéroe con atributo combat = 'null')
+1. Se supuso que si un Superhéroe no tiene disponible algún parámetro necesario para la pelea en la API de superhéroes no podrá ser utilizado. (Por ejemplo, un superhéroe con atributo combat = 'null')
 
 2. Se supuso que los Superhéroes con alignment distinto a 'good' o 'bad' no pertenecía a ninguno de estos bandos, es decir, se verán afectados negativamente por el filiation_coefficient.
 
-3. Se supuso que actual_stamina es un parámetro único. En el enunciado se menciona que para cada atributo hay un parámetro actual_stamina y luego se incluye este en las fórmulas como atributo único, lo cual no me quedó claro.
+3. Se supuso que actual_stamina es un parámetro único para cada superhéroe. En el enunciado se menciona que para cada atributo hay un parámetro actual_stamina y luego se incluye este en las fórmulas como atributo único, lo cual no me quedó claro.
 
 4. Se supuso que el manejo de la pelea y las reglas de esta quedaban a libre elección ya que no se mencionaban en el enunciado.
