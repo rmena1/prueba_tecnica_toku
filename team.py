@@ -22,7 +22,7 @@ class Team():
                     # get superhero data from API
                     url = self.api_url + str(id)
                     try:
-                        response = requests.get(url, timeout=(0.2, 1))
+                        response = requests.get(url, timeout=(0.3, 1.5))
                     except:
                         print('Error al conectar con la API, reintentando...')
                         self.members_id.remove(id)
